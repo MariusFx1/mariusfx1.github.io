@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mariusfx1.github.io/marius-fx/sitemap.xml

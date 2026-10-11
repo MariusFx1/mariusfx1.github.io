@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <title>MS Prime</title>
+  <link rel="icon" type="image/png" href="/marius-fx/favicon.png">
+  <script>
+    (function () {
+      var p = location.pathname || '/';
+      if (p.indexOf('/marius-fx/') === 0 || p === '/marius-fx') { location.replace('/marius-fx/'); return; }
+      location.replace('/marius-fx' + p + location.search + location.hash);
+    })();
+  </script>
+</head>
+<body style="background:#070b14;color:#e7ebf2;font-family:system-ui,sans-serif;text-align:center;padding:3rem">
+  <p>Te redirecționăm către <a style="color:#22c55e" href="/marius-fx/">MS Prime</a>…</p>
+</body>
+</html>
